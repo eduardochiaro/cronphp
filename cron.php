@@ -3,6 +3,9 @@
 
 $_cfg = new stdClass();
 
-include 'Core/bootstrap.php';
+include 'App/bootstrap.php';
 
-//run();
+
+$cp = new Bootstrap('internal');
+
+//$cp->run();
